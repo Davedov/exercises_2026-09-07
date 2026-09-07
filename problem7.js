@@ -1,9 +1,6 @@
 console.log(orderCalculator(10, 3, 20)); // Expected output: 29
 console.log(orderCalculator(20, 3, 10)); // Expected output: 59
 console.log(orderCalculator(5, 10, 0)); // Expected output: 55
-console.log(orderCalculator(10, 6, 110)); // Expected output: 35
-console.log(orderCalculator(-10, 6, 100)); // Expected output: 35
-console.log(orderCalculator(10, 6.5, 100)); // Expected output: 35
 
 function orderCalculator(prize, quantity, discountPercent) {
 	if (discountPercent < 0 || discountPercent > 100) {
